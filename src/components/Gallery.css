@@ -127,7 +127,7 @@ img {
 }
 
 .next-btn {
-    background-image: url(images/icon-next.svg);
+    background-image: url(../images/icon-next.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fff;
@@ -141,13 +141,13 @@ img {
 }
 
 .next-btn:hover, .next-btn:active {
-    background-image: url(images/icon-next-orange.svg);
+    background-image: url(../images/icon-next-orange.svg);
     transform: translateX(10px);
     transition: transform 0.3s ease-in-out;
 }
 
 .previous-btn {
-    background-image: url('images/icon-previous.svg');
+    background-image: url(../images/icon-previous.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fff;
@@ -161,7 +161,7 @@ img {
 }
 
 .previous-btn:hover, .previous-btn:active {
-    background-image: url(images/icon-previous-orange.svg);
+    background-image: url(../images/icon-previous-orange.svg);
     transform: translateX(-10px);
     transition: transform 0.3s ease-in-out;
 }
