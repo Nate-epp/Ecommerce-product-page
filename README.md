@@ -3,6 +3,8 @@ Ecommerce-product-page solution by Nate
 
 # Frontend Mentor - E-commerce product page
 
+![Preview photo](https://github.com/Nate-epp/Ecommerce-product-page/blob/main/public/desktop-preview.jpg)
+
 Live site here 
 https://graceful-bienenstitch-dee73d.netlify.app
 
