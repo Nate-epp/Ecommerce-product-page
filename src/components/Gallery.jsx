@@ -74,21 +74,3 @@ function Gallery() {
 }
 
 export default Gallery
-
-// Old code
-// {isOpen && (
-//     <div className={`modal-overlay ${isOpen ? 'active' : ''}`}>
-//         <div className='modal-body'>
-        
-//         <div className='lightbox-grid'>
-//         <button className='close-modal' onClick={()=>setIsOpen(false)}><img src='/images/icon-close-orange.svg'/></button>
-//         <button className='next-btn' onClick={nextImage}></button>
-//         <button className='previous-btn' onClick={previousImage}></button>
-//         <img src={selectedImg} className='big-pic' alt='big-pic' />
-//         <div className='thumbnail-grid'>
-//             {thumbnailImage.map((image, index)=><img src={image} className={`thumbnail ${selectedImg === bigImage[index] ?'selected' :'' }`}key={index} alt={`${'thumbnail' + index}`} onClick={()=>setSelectedImg(bigImage[index])}/>)}
-//         </div>
-//         </div>
-//         </div>
-//     </div>
-// )}
